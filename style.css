@@ -2,3 +2,19 @@
     border: #572CD8;
     background: #572CD8;
 }
+
+#img1{
+    width: 400px;
+}
+
+@media (max-width: 414px) {
+    #img1{
+        width: 250px;
+    }
+}
+
+@media (max-width: 283px) {
+    #img1 {
+        width: 100px;
+    }
+}
